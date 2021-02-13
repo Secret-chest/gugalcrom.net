@@ -1,0 +1,631 @@
+/*General*/
+html{
+    background-image:linear-gradient(white, black);
+    background-attachment:fixed;
+}
+iframe{
+    border:7px solid orange;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+    float:left;
+    margin-bottom:10px;
+}
+.specialcard{
+	width:100%;
+	height:220px;
+	border: 0px solid White;
+	border-radius:0px;
+	box-sizing:border-box;
+	padding:10px;
+	margin-left: auto;
+	margin-right: auto;
+	background: white;
+	margin-bottom:11px;
+	margin-top:11px;
+}
+wn{
+    max-width:800px;
+    width:800px;
+}
+#card1{
+    background-image:url("profile.png")
+}
+.specialcard h1{
+    font-size:42;
+}
+.specialcard button{
+    font-family:Arial;
+    font-size:12;
+    background:black;
+    position:relative;
+    padding:12px;
+    margin:12px;
+    background:gray;
+    color:white;
+    font-weight:bold;
+    outline:none;
+    bottom:25;
+}
+.specialcard button:focus{
+    font-family:Arial;
+    font-size:12;
+    background:black;
+    position:static;
+    padding:12px;
+    margin:12px;
+    background:gray;
+    color:white;
+    font-weight:bold;
+    outline:none;
+}
+.specialcard a{
+    font-family:Arial;
+    font-size:12;
+    background:black;
+    position:relative;
+    padding:22px;
+    margin:12px;
+    background:gray;
+    color:white;
+    font-weight:bold;
+    text-decoration:none;
+    float:right;
+    bottom:25;
+}
+
+windowheading{
+    background:orange;
+    border:7px solid orange;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    color:black;
+    width:780px;
+    float:left;
+    margin:0;
+}
+windowheading a{
+    float:right;
+    margin-left:20px;
+}
+.slidecontainer {
+  width: 80%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 80%; /* Full-width */
+  height: 10px; /* Specified height */
+  background: white;
+  outline: none; /* Remove outline */
+  border-radius:20px;
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 20px; /* Set a specific slider handle width */
+  height: 20px; /* Slider handle height */
+  background: blue;
+  border-radius:100%;
+  cursor: pointer; /* Cursor on hover */
+}
+body {
+  background-color: LightSkyBlue;
+  color: black;
+  background-size: 100px;
+  font-family:Tahoma, Verdana, "DejaVu Sans",sans-serif;
+  font-weight:400;
+  width:920px;
+  margin-left:auto;
+  margin-right:auto;
+  top:0;
+  padding:10px;
+  margin-top:0;
+  margin-bottom:0;
+}
+a {
+    color:blue;
+}
+h1{
+    color:white;
+}
+nav ul {
+  background: DeepSkyBlue;
+  border-style:solid;
+  border-color:white;
+  border-width:2px;
+  padding: 0.5em;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+
+}
+.blogpost{
+    background:white;
+    height:110px;
+    padding:50px;
+    text-align:center;
+    text-decoration:bold;
+    color:black;
+}
+nav ul li {
+  list-style-type:none;
+  display: inline;
+  justify-content: space-around;
+  margin-right:10px;
+  margin-left: 10px;
+  color:black;
+  text-align: center;
+}
+nav ul li a {
+    color:blue;
+    text-decoration:none;
+}
+nav ul li a:hover {
+    color:yellow;
+    text-decoration:none;
+}
+.MenuLinks{
+    text-decoration:none;
+}
+#logo{
+	width:30%;
+}
+h1 {
+	font-family:"Trebuchet MS",Tahoma, Verdana, "DejaVu Sans", sans-serif;
+	color:black;
+}
+h2 {
+	font-family:Verdana, "DejaVu Sans";
+	color:#ff9900;
+
+}
+#frontPage{
+  
+}
+/*Tipuri speciale de text*/
+glowing {
+    animation-name:rainbowGlow;
+    animation-duration:1.5s;
+    animation-timing-function:ease-out;
+    animation-delay:1s;
+    animation-iteration-count:5;
+    animation-direction:normal;
+}
+pulsate {
+    animation-name:pulsate;
+    animation-duration:4s;
+    animation-timing-function:linear;
+    animation-delay:0s;
+    animation-iteration-count:37;
+    animation-direction:normal; 
+}
+/*AnimaČ›ii*/
+@keyframes myFirstAnimation {
+    0% {
+        background-color:red;
+    }
+    66% {
+        background-color: yellow;
+    }
+    84%{
+        background-color:green;
+    }
+    100%{
+        background-color:LightSkyBlue;
+    }
+}
+@keyframes rainbowGlow {
+    0% {
+        color: #FFD700;
+    }
+    50% {
+        color: #663399;
+    }
+    100% {
+        color: #FFD700;
+    }
+}
+@keyframes pulsate {
+    0%{
+        font-size:18;
+    }
+    50%{
+        font-size:36;
+    }
+    100%{
+        font-size:18;
+    }
+}
+/*Altele*/
+.navLinks{
+    color:green;
+    background:black;
+    text-decoration:bold;
+}
+.tinyPicture{
+    height:60px;
+}
+.card{
+    width:100%;
+    height:1000px;
+    border: 2px dashed Navy;
+    border-radius:10px;
+    box-sizing:border-box;
+    padding:8px;
+    font-family:"Trebuchet MS";
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 22px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: darkblue;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: blue;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background:green;
+    transition:1s;
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+.content {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+.logo {
+	width:50%;
+}
+.cardLink {
+    color: inherit;
+    text-decoration: none;
+}
+@media all and (max-width: 1080px) {
+    nav ul {
+        display: list-item;
+        justify-content: space-around;
+    }
+}
+@media all and (min-width: 1930px) {
+    nav ul {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+}
+.purpleCard {
+	width:90%;
+	height:245px;
+	border: 3px solid White;
+	border-radius:13px;
+	box-sizing:border-box;
+	padding:10px;
+	margin-left: auto;
+	margin-right: auto;
+	background: purple;
+	margin-bottom:11px;
+	margin-top:11px;
+}
+.box {
+	height:110px;
+	border: 3px solid White;
+	border-radius:0px;
+	box-sizing:border-box;
+	padding:10px;
+	margin-left: auto;
+	margin-right: auto;
+	background: yellow;
+	
+}
+menu {
+	background-color: DeepSkyBlue;
+}
+.cardtext{
+    color:white;
+}
+
+.tinyPicture {
+    height: 60px;
+}
+@media only screen and (max-width: 920px) {
+  .card {
+      width:50%;
+  }
+}
+@media only screen and (max-width:920px) and (orientation:portrait){
+  .card {
+      width:100%;
+      height:820px;
+  }
+  p,h1,h2,h3,h4,h5,h6,img,li {
+      padding-top: 11px;
+      padding-bottom: 11px;
+  }
+  .tinyPicture {
+      width:335px;
+      height:auto;
+  }
+}
+.card {
+    width: 25%;
+    max-width:25%;
+    height: auto;
+    border: 0px solid white;
+    box-sizing:border-box;
+    background:green;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: Tahoma ,Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:0px;
+    
+}
+.card:hover {
+    box-shadow: 20px 20px 22px #555;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px;
+    height:auto;
+}
+.smallImage {
+    width:20%;
+}
+.genericImage {
+    width:50%;
+}
+.loading{
+    animation-name:loading;
+    animation-duration:2.1s;
+    animation-iteration-count:1000000000000000000000000000000000000000000000000000000;
+    animation-timing-function:linear;
+    width:20px;
+    height:10px;
+    background:blue;
+}
+loadingbox{
+    background:blue;
+    width:400px;
+    height:10px;
+}
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.popup .popuptext {
+    visibility: hidden;
+    width: 645px;
+    background-color:DeepSkyBlue;
+    color:black;
+    text-align:center;
+    padding: 8px 0;
+    position:absolute;
+    z-index: 1;
+    bottom:125%;
+    left:50%;
+    margin-left: -80px;
+    
+}
+.popup .popuptext::after {
+    content:"";
+    position:absolute;
+    top:100%;
+    left:50%;
+    margin-left:-5px;
+    border-width:5px;
+    border-style:solid;
+    border-color:#555 transparent transparent transparent;
+    
+}
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+  
+}
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+@keyframes loading{
+    from{
+        margin-left:10px;
+    }
+    to{
+        margin-left:400px;
+    }
+}
+
+.login {
+  background: DeepSkyBlue;
+  border-style:solid;
+  border-color:white;
+  border-width:2px;
+  padding: 0.5em;
+  flex-direction:column;
+  animation-name: rainbowGlow;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+    
+}
+.login ul li {
+  list-style-type:none;
+  margin-right:10px;
+  margin-left: 10px;
+  color:black;
+  text-align: center;
+}
+button {
+    background-color:blue;
+    color:white;
+    width:220px;
+    height:40px;
+    font-family:Verdana;
+    border-color:white;
+    border-width:3px;
+}
+button :hover{
+    background-color:yellow;
+    color:black;
+}
+#redstoneDivider{
+    background-color:red;
+    color:white;
+    height:100px;
+    
+}
+#redstoneDivider ul{
+    display:inline;
+}
+.tab {
+    overflow:hidden;
+    border:1px solid white;
+    background-color:LightSkyBlue;
+}
+.tab button {
+    background-color:DeepSkyBlue;
+    float:left;
+    border:none;
+    cursor:pointer;
+    padding:14px 16px;
+    
+    
+}
+.tab button:hover {
+    background-color:LightSkyBlue;
+}
+.tab button.active {
+    background-color:LightSkyBlue;
+}
+.tabcontent {
+    display:none;
+    padding:6px 12px;
+    border:1px solid LightSkyBlue;
+    border-top:none;
+}
+@media screen and (max-width:920px) and (orientation:portrait) {
+  nav ul li{
+      display:block;
+      margin-bottom:15px;
+  }
+  body{
+    font-size:33;
+  }
+  #logo {
+      width:100%;
+  }
+  .genericImage{
+      width:100%;
+  }
+  h1{
+     font-size:61; 
+  }
+  h2 {
+     font-size:49; 
+  }
+  .purpleCard {
+      height:451px;
+      border-radius:22px;
+  }
+  body {
+      background-size:500px;
+  }
+}
+.loader {
+  border: 60px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 60px solid #3498db;
+  width: 0px;
+  height: 0px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+window {
+    text-align:center;
+    background:orange;
+    color:black;
+    font-size:14;
+    border-radius:13px;
+    border-top:2px solid White;
+    width:720px;
+    height:1080px;
+    font:"Segoe UI";
+}
+.special{
+    background-color:lightgray;
+    color:white;
+}
+table, th, td {
+  border: 1px solid black;
+  border-spacing: 22px;
+  border-collapse: collapse;
+}
+th ,td {
+    height:20px;
+}
